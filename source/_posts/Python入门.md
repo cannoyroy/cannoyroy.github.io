@@ -1,4 +1,19 @@
+---
+title: Python入门指南——文科生版
+date: 2024.10.19
+updated:
+tags: 
+  - python
+categories: 计科
+top_img: https://images.unsplash.com/photo-1664570000007-db164768644d?q=80&w=1417&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+cover: https://images.unsplash.com/photo-1664570000007-db164768644d?q=80&w=1417&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+swiper_index: 3
+top_group_index: 3
+background: "#fff"
+---
+
 # Python入门指南——文科生版
+
 ——文末有无广电子书直链
 
 ## 一、下载安装Python
