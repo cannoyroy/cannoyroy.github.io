@@ -102,3 +102,5 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  # repo: https://github.com/cannoyroy/cannoyroy.github.io
+  # branch: main
