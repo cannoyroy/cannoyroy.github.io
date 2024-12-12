@@ -1,5 +1,5 @@
 ---
-title: ML-BookCamp
+title: ML-Bookcamp
 date: 2024.08.12
 updated:
 tags: "AI, 机器学习"
@@ -478,20 +478,20 @@ Xception模型包含71层，其中最重要的层如下展开
 把一个卷积层的输出作为下一层的输入。下一层的过滤器把前一层的形状组合成更复杂的结构。
 最后得到图像的向量表示：一个一维数组，每个位置对应高级的视觉特征。（致密层运用这些高级特征得出最终决策）
 
-![](attachments/Pasted image 20240728161241.png)
+![](ML-Bookcamp/a.png)
 
-![](attachments/Pasted image 20240728161253.png)
+![](ML-Bookcamp/b.png)
 
-![](attachments/Pasted image 20240728161311.png)
+![](ML-Bookcamp/c.png)
 
 ### 2 致密层
 
 多个逻辑回归模型放在一起，组成一个输出层。
 一个只有一层的网络：这一层把输入转换为输出——致密层：把输出如的每个元素与输出的所有元素连接起来，即“全连接”
 
-![](attachments/Pasted image 20240728161545.png)
+![](ML-Bookcamp/d.png)
 
-![](attachments/Pasted image 20240728162216.png)
+![](ML-Bookcamp/e.png)
 
 ## （四）训练模型
 训练卷积神经网络需要大量时间和数据，捷径——**迁移学习**，使用预训练模型适用于问题的方法。
