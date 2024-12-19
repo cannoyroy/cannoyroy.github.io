@@ -1,5 +1,5 @@
 ---
-title: “微观经济学原理（曼昆）”
+title: 微观经济学原理（曼昆）
 date: 2024.12.20
 updated:
 tags:
