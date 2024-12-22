@@ -13,11 +13,11 @@ cover: https://images.unsplash.com/photo-1523726491678-bf852e717f6a?q=80&w=2670&
 toc:
 toc_number:
 toc_style_simple:
-copyright:
-copyright_author:
-copyright_author_href:
-copyright_url:
-copyright_info:
+copyright: true
+copyright_author: 产品经理毛毛（哔哩哔哩）
+copyright_author_href: https://space.bilibili.com/65795160
+copyright_url: https://www.bilibili.com/video/BV1kv4y1A7rH
+copyright_info: 文章版权归原作者所有，如有侵权，请联系删除。
 mathjax:
 katex:
 aplayer:
