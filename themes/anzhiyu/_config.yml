@@ -69,7 +69,9 @@ copy:
 #   name: link || icon
 social:
   Github: https://github.com/cannoyroy || anzhiyu-icon-github
-  BiliBili: https://space.bilibili.com/486926861 || anzhiyu-icon-bilibili
+  # BiliBili: https://space.bilibili.com/486926861 || anzhiyu-icon-bilibili
+  RSS: atom.xml || anzhiyu-icon-rss
+  
 
 # 作者卡片 状态
 author_status:
@@ -530,6 +532,9 @@ footer:
       enable: false
       link: /copyright
     linkList:
+      - link: atom.xml
+        text: RSS
+        icon: anzhiyu-icon-rss
       - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
         text: 主题
       # - link: https://image.anheyu.com

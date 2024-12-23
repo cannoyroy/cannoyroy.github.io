@@ -108,6 +108,12 @@ deploy:
 
 plugins:
   - hexo-asset-img
+  - hexo-generator-feed
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 
 # APlayer
 # https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
