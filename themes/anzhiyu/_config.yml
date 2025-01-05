@@ -10,7 +10,8 @@ menu:
     # 留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
-    音乐馆: /music/ || anzhiyu-icon-music
+    # 音乐馆: /music/ || anzhiyu-icon-music
+    友人帐: /link/ || anzhiyu-icon-link
     # 碎碎念: https://tinymind.me/cannoyroy/thoughts || anzhiyu-icon-envelope
     # 视频页: https://space.bilibili.com/486926861 || anzhiyu-icon-bilibili
     # 相册集: /album/ || anzhiyu-icon-images
@@ -24,20 +25,20 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
-  travelling: false
+  enable: true
+  travelling: true
   clock: true
   menu:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog.anheyu.com/
+          link: https://untymen.com/
           icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+    # - title: 项目
+    #   item:
+    #     - name: 安知鱼图床
+    #       link: https://image.anheyu.com/
+    #       icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示

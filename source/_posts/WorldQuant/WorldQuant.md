@@ -1,5 +1,5 @@
 ---
-title: WorldQuant
+title: World Quant
 date: 2025.1.5
 updated:
 tags:
@@ -29,6 +29,8 @@ top_group_index: 3
 background: "#fff"
 ---
 
- [Introduction-to-WorldQuant-BRAIN.md](Introduction-to-WorldQuant-BRAIN.md) 
 
- [Introduction-to-Alphas.md](Introduction-to-Alphas.md) 
+
+[Introduction to WorldQuant BRAIN | unTymen](https://untymen.com/2024/12/27/8b6c00e9fe29/)
+
+[Introduction to Alpha | unTymen](https://untymen.com/2025/01/05/fc8985c8835d/)
