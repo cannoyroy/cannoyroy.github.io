@@ -7,8 +7,8 @@ tags:
 categories: 计科
 top_img: https://images.unsplash.com/photo-1647166545674-ce28ce93bdca?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 cover: https://images.unsplash.com/photo-1647166545674-ce28ce93bdca?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-swiper_index: 1
-top_group_index: 1
+swiper_index: 6
+top_group_index: 6
 background: "#fff"
 ---
 

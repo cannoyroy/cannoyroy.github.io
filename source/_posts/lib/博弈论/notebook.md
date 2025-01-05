@@ -23,8 +23,8 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 2
-top_group_index: 2
+swiper_index: 6
+top_group_index: 6
 background: "#fff"
 ---
 
