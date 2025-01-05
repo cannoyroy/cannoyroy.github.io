@@ -1,6 +1,6 @@
 ---
 title: 微观经济学原理（曼昆）
-date: 2024.12.28
+date: 2025.1.4
 updated:
 tags:
   - 经济学
@@ -23,12 +23,10 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 3
-top_group_index: 3
+swiper_index: 2
+top_group_index: 2
 background: "#fff"
 ---
-
-
 
 # 微观经济学原理（曼昆）
 
@@ -52,7 +50,6 @@ background: "#fff"
 
 第一篇 导言
 
-​	 [第1章-经济学十大原理](https://untymen.com/2024/12/26/9f4cc7b62390/)——一些重要思想指导着经济学的研究
+​	 [第1章-经济学十大原理](https://www.untymen.com/2024/12/20/lib/微观经济学/第1章-经济学十大原理/)——一些重要思想指导着经济学的研究
 
-​	 [第2章-像经济学家一样思考](https://untymen.com/2024/12/27/84aa7ea2959c/)——经济学家既可以作为科学家来观察世界，也可以作为决策者来观察世界。
-
+​	 [第2章-像经济学家一样思考](https://www.untymen.com/2024/12/27/lib/微观经济学/第2章-像经济学家一样思考/)——经济学家既可以作为科学家来观察世界，也可以作为决策者来观察世界。

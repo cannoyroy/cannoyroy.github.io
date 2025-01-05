@@ -28,8 +28,6 @@ top_group_index: 6
 background: "#fff"
 ---
 
-
-
 # 【51】LED
 
 ## LED介绍
@@ -78,8 +76,21 @@ void main(){
 #include <REGK52.H>
 #include <INTRINS.H>
 
-void Delay500ms(){ //@12.000MHz
-    //……
+void Delay500ms(void)	//@12.000MHz 
+{
+	unsigned char data i, j, k;
+
+	_nop_();
+	i = 4;
+	j = 205;
+	k = 187;
+	do
+	{
+		do
+		{
+			while (--k);
+		} while (--j);
+	} while (--i);
 }
 
 void main(){
@@ -95,4 +106,89 @@ void main(){
 > 实现延时的工具：
 >
 > STC-ISP中的“软件延时计算器”，当前开发板的晶振是12MHz，由于是STC89C系列的单片机，所以指令集改成“STC-V1”，最后生成一个`Delay()`函数 
+
+## LED流水灯
+
+```c
+#include <REGX52.H>
+#include <INTRINS.H>
+
+void Delay500ms(void)	//@12.000MHz 
+{
+	unsigned char data i, j, k;
+
+	_nop_();
+	i = 4;
+	j = 205;
+	k = 187;
+	do
+	{
+		do
+		{
+			while (--k);
+		} while (--j);
+	} while (--i);
+}
+
+void main(){
+    while(1){
+        P2 = 0xFE;
+        Delay500ms();
+        P2 = 0xFD;
+        Delay500ms();
+        P2 = 0xFB;
+        Delay500ms();
+        P2 = 0xF7;
+        Delay500ms();
+        P2 = 0xEF;
+        Delay500ms();
+        P2 = 0xDF;
+        Delay500ms();
+        P2 = 0xBF;
+        Delay500ms();
+        P2 = 0x7F;
+        Delay500ms();
+    }
+}
+```
+
+```c
+// 改进
+#include <REGX52.H>
+#include <INTRINS.H>
+
+void Delayms(unsigned int xms)	//@12.000MHz
+{
+	unsigned char data i, j;
+	while(xms--){
+		i = 2;
+		j = 239;
+		do
+		{
+			while (--j);
+		} while (--i);
+	}
+}
+
+void main(){
+    while(1){
+        P2 = 0xFE;
+        Delayms(500);
+        P2 = 0xFD;
+        Delayms(500);
+        P2 = 0xFB;
+        Delayms(500);
+        P2 = 0xF7;
+        Delayms(500);
+        P2 = 0xEF;
+        Delayms(500);
+        P2 = 0xDF;
+        Delayms(500);
+        P2 = 0xBF;
+        Delayms(500);
+        P2 = 0x7F;
+        Delayms(500);
+    }
+}
+```
 

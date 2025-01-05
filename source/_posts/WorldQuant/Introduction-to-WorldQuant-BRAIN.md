@@ -1,10 +1,10 @@
 ---
-title: WorldQuant相关
-date: 2024.12.28
+title: Introduction to WorldQuant BRAIN
+date: 2024.12.27
 updated:
 tags:
+  - 量化
   - 经济学
-  - python
 categories: 社科
 keywords:
 description:
@@ -24,8 +24,8 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 5
-top_group_index: 5
+swiper_index: 6
+top_group_index: 6
 background: "#fff"
 ---
 
@@ -94,7 +94,6 @@ One method of developing quant ideas：
 - Freedom to **work remotely** at your own pace in an authorized location.
 
 ### Learn
-
 - In-depth **training and mentorship** from experienced quants.
 - **Hands-on** learning
 
@@ -109,68 +108,10 @@ From **User** to **Consultant**
 
 - User needs to score **10,000 points** in the **WorldQuant Challenge** to become eligible to be a consultant
 - **Points** can be earned by **submitting alphas** that meet our **thresholds**
-
+  
 - **Rule of thumb:** You can earn 10,000 points by submitting 5 to 10 alphas
   on 5 or more distinct days
   - You earn points every day you submit alphas
   - Maximum points that can be earned in a single day: 2,000
   - Usually, these points can be earned by submitting 1 to 2 alphas in a day
-
-# What is an Alpha?
-
-The aim of Alpha:
-
-- Determine how to distribute **capital** among a group of **financial instruments**.
-
-To ensure downsides protection:
-
-- Develop **equity long-short market neutral alphas**
-- Expected to produce substantially better risk-adjusted returns
-
-Taking a "Long Position" in a stock:
-
-- Buying the stock
-- If the stock **increase** in value, you will **profit**
-
-Taking a "Short Position" in a stock:
-
-- **Borrowing** a stock (usually from a **broker**), selling it, then hoping it declines in value
-- Then, **buy it back at a lower price** and return borrowed shares
-
-Equity Long-short Market Neutral Strategy:
-
-- Used commonly by hedge funds
-- Equal dollar amount of **long positions** and **short positions**
-- This strategy can work even if **long position declines** in value. Because **profit from shorting** can be higher than **losses from long positions**
-- **GOAL**: minimize **exposure to market** in general, and **profit from a change** in the spread between two stocks
-
-> - **市场敞口（Market Exposure）**：指投资组合的价值受市场整体变动影响的程度。如果一个投资组合与市场指数（如标普500指数）高度相关，那么它就有较高的市场敞口。
->
-> - **最小化市场敞口（Minimize Market Exposure）**：这通常涉及到对冲策略，比如使用衍生品（如期货、期权）来抵消市场风险，或者构建一个与市场指数不同步的投资组合，以减少市场下跌时的损失。
->
-> - **对冲基金（Hedge Funds）**：这种策略在对冲基金中尤其常见，它们使用复杂的金融工具和策略来减少市场风险，寻求在各种市场条件下都能获得正回报。
->
-> - **风险管理（Risk Management）**：最小化市场敞口是风险管理的一部分，目的是保护投资组合免受不利市场条件的影响。
->
-> - **市场中性（Market Neutral）**：最小化市场敞口的目标之一是实现市场中性，即投资组合的表现不受市场整体涨跌的影响，而是依赖于选股或市场时机选择等其他因素。
-
-## HOW TO
-
-Begin by defining what instruments you want to trade.
-
-The **universe** can be a group of US stocks defined on the basis of their liquidity.
-
-An Alpha is a vector of the predicted value of the stocks in the universe. Each value can change each day and has two properties.
-
-1. Sign: positive sign = long, or buy, negative sign = short, or sell
-2. Magnitude: it determines **capital distribution** among stocks in the portfolio
-
-Steps to Alpha Creation:
-
-1. Generate an idea
-2. Implement the idea
-   - expression
-   - python code
-3. Apply operations on raw alpha vector
-4. Analyze statistics
 
