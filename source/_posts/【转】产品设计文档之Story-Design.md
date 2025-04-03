@@ -5,27 +5,6 @@ updated:
 tags:
   - 创新创业
 categories: 杂
-keywords:
-description:
-top_img: https://images.unsplash.com/photo-1523726491678-bf852e717f6a?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-comments:
-cover: https://images.unsplash.com/photo-1523726491678-bf852e717f6a?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-toc:
-toc_number:
-toc_style_simple:
-copyright: true
-copyright_author: 产品经理毛毛（哔哩哔哩）
-copyright_author_href: https://space.bilibili.com/65795160
-copyright_url: https://www.bilibili.com/video/BV1kv4y1A7rH
-copyright_info: 文章版权归原作者所有，如有侵权，请联系删除。
-mathjax:
-katex:
-aplayer:
-highlight_shrink:
-aside:
-swiper_index: 1
-top_group_index: 1
-background: "#fff"
 ---
 
 

@@ -1,7 +1,7 @@
 ---
-title: categories
-date: 2022-02-23 17:56:00
-aside: false
-top_img: false
+title: Categories
+date: 2025-01-01 00:00:00
 type: "categories"
+comments: false
+top_img: false
 ---
