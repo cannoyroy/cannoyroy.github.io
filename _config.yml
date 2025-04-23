@@ -36,6 +36,9 @@ plugin:
   - hexo-toc
   # ... other plugins you'd like to enable
 
+toc:
+  maxDepth: 3
+
 # Generate archive page
 archive_generator:
   per_page: 0
