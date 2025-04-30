@@ -34,6 +34,7 @@ plugin:
   - hexo-asset-image
   - hexo-prism-plugin
   - hexo-toc
+  # - hexo-renderer-markdown-it 
   # ... other plugins you'd like to enable
 
 toc:
