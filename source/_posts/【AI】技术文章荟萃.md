@@ -23,3 +23,24 @@ Agent：
 科研：
 
 - [满绩毕业，谷歌 Gemini 团队新晋华人博士给科研新人的7点建议](https://mp.weixin.qq.com/s/WMQDRp1xAZZ8pBXP5YIq6Q)
+
+
+
+- [微调篇「数据集构建」保姆级教程来了！](https://mp.weixin.qq.com/s/-2eY3G_RKKe2N9V-ffqybQ)
+
+DeepLearning：
+
+- [Deep learning reading list from Ilya Sutskever](https://github.com/dzyim/ilya-sutskever-recommended-reading?tab=readme-ov-file)
+- [Ilya 30u30](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)
+- [“Probabilistic machine learning”: a book series by Kevin Murphy | pml-book](https://probml.github.io/pml-book/)
+- 
+
+
+
+## 落地应用
+
+- [用AI把微信聊天记录变成可视化报告，酷到封神。](https://mp.weixin.qq.com/s/Z66YRjY1EnC_hMgXE9_nnw?scene=262&from=industrynews)
+- 
+
+
+
