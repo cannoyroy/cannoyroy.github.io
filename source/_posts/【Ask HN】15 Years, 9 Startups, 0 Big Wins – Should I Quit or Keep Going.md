@@ -3,9 +3,9 @@ title: 【Ask HN】15 Years, 9 Startups, 0 Big Wins – Should I Quit or Keep Go
 date: 2025.4.23
 updated:
 tags:
-  - “创”
-  - 输入
-  - “我”
+- “创”
+- 输入
+- “我”
 categories: 命题
 ---
 

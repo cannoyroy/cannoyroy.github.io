@@ -27,3 +27,4 @@ themeStyle: light # light/dark
 mathjax:
   enable: true
   per_page: true
+

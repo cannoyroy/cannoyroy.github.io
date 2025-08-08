@@ -3,7 +3,8 @@ title: unTymen
 subtitle: "人生无限"
 description: ''
 keywords:
-author: Cannoy
+author: Reid Qian
+# language: zh-CN
 timezone: ''
 
 # Directory
@@ -11,7 +12,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
-category_dir: /categories/
+category_dir: categories
 
 
 # URL
@@ -23,8 +24,8 @@ pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
-theme: typography
-
+theme: cactus #typography
+## cactus # 
 highlight:
   enable: false # we will use the prism plugin instead
 
@@ -34,8 +35,14 @@ plugin:
   - hexo-asset-image
   - hexo-prism-plugin
   - hexo-toc
+  - hexo-renderer-marked
   # - hexo-renderer-markdown-it 
   # ... other plugins you'd like to enable
+
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 
 toc:
   maxDepth: 3

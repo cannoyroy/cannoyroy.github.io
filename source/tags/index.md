@@ -1,9 +1,6 @@
 ---
-title: 标签
-date: 2025-01-01 00:00:00
-type: "tags"
-layout: "tag-index"
-comments: false
-top_img: false
+title: TAGS
+date: 2025-08-08 22:39:40
+type: tags
 ---
 
