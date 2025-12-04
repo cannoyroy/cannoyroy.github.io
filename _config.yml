@@ -33,11 +33,16 @@ plugin:
   - hexo-generator-category-enhance
   - hexo-generator-feed
   - hexo-asset-image
+  - install hexo-filter-mermaid-diagrams
   - hexo-prism-plugin
   - hexo-toc
   - hexo-renderer-marked
   # - hexo-renderer-markdown-it 
   # ... other plugins you'd like to enable
+
+mermaid:
+  enable: true
+  version: "8.13.8" # 指定一个稳定版本
 
 post_asset_folder: true
 marked:
