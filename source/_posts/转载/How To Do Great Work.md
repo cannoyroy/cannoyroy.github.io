@@ -5,7 +5,7 @@ updated:
 tags:
   - 输入
   - 创业
-categories: 杂
+categories: 翻译
 ---
 
 原文：https://paulgraham.com/greatwork.html
