@@ -3,5 +3,10 @@
        "name":"High School English Writing Coach(高中英语写作全能教练)",
        "url":"https://www.moreturn.cn/",
        "desc":"Powered by Vue 3, Dify, & LeanCloud. Delivers a full loop: Error Detection → Issue Clustering → Targeted Resource Generation.\n基于 Vue 3 + Dify + LeanCloud 的写作私教。实现“错误检测 → 问题聚类 → 资源生成”的全流程闭环。"
+    },
+    {
+      "name": "SBTI 精神状态测试",
+      "url": "https://sbti.untymen.com",
+      "desc": "Built with Vite, React, TypeScript, and Tailwind CSS. An entertainment-oriented personality test web app  featuring a 36-question quiz, state matching, personality atlas, and shareable result cards. Reached about 50,000 users.\n基于 Vite + React + TypeScript + Tailwind CSS 开发的娱乐型人格测试网站，包含 36 题测评、状态匹配、人格图鉴与结果分享卡片，累计约 5 万用户。"
     }
 ]
