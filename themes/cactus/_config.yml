@@ -191,7 +191,7 @@ google_analytics:
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
   enabled: true
-  id: 6656d8ba45f2585517881e8670a65e4d
+  id: e3bd3d2d2ba5ec2fa91e78288800fddc
 
 # Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
 cloudflare_analytics:
